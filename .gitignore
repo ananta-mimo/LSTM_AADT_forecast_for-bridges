@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data
+input_data/*
+!input_data/raw/.gitkeep
+!input_data/processed/.gitkeep
+
+# Outputs
+output/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
