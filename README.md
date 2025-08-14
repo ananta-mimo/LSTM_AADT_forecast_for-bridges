@@ -2,6 +2,14 @@
 
 Modular repo for forecasting Annual Daily Traffic (ADT) using an LSTM.
 
+## Objectives
+
+1. **Clean & Reusable Pipeline** – Provide a clear separation between data loading, modeling, evaluation, and plotting so components are easy to replace or extend.
+2. **Reproducible Training & Inference** – One-command scripts for training and prediction, plus notebooks for quick exploration.
+3. **Meaningful Evaluation** – Standard regression metrics (MAE, MAPE, MDAPE, RMSE) and comparison plots (train/test/predictions/residuals).
+4. **Extensibility** – Support future improvements such as Keras Core / PyTorch backends, walk-forward backtesting, hyperparameter search, exogenous covariates, uncertainty intervals, and CI/CD.
+
+
 ## Structure
 ```
 │
@@ -31,6 +39,7 @@ Modular repo for forecasting Annual Daily Traffic (ADT) using an LSTM.
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 ```
 ## Quickstart
 ```bash
