@@ -1,5 +1,5 @@
 # LSTM_AADT_forecast_for-bridges
-A simple LSTM model of to forecast Average Annual Daily Traffic and Average Weights on a Bridge  
+A simple LSTM model to forecast Average Annual Daily Traffic and Average Weights on a Bridge  
 ``````lstm-adt-forecast/
 │
 ├── code/                      # All main scripts
