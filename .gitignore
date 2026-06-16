@@ -1,16 +1,37 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
 
-# Data
-input_data/*
-!input_data/raw/.gitkeep
-!input_data/processed/.gitkeep
+# Virtual environment
+.venv/
+venv/
+env/
 
-# Outputs
-output/*
+# Data — real data not included (NBI licensing)
+input_data/raw/*.csv
+!input_data/raw/sample_aadt.csv
+input_data/processed/
 
-# Jupyter Notebook checkpoints
+# Outputs — generated at runtime
+output/models/
+output/figures/
+output/logs/
+
+# Jupyter
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-notebooks/
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+secrets.json
